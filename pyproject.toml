@@ -64,4 +64,5 @@ profile = "black"
 [tool.mypy]
 strict = true
 
-
+[tool.vercel]
+entrypoint = "generate.py"
